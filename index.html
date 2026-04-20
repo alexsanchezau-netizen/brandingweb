@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BrandingWeb.iA — Marketing con IA para negocios que escalan. Sistemas de automatización, captación de leads y marca personal. Por Alex Sánchez desde Sydney, Australia.">
+  <meta name="keywords" content="marketing IA, automatización leads, marca personal, WhatsApp bot, agencia marketing LATAM">
+  <meta property="og:title" content="BrandingWeb.iA — Marketing con IA">
+  <meta property="og:description" content="Sistemas de marketing con IA que generan leads, nutren prospectos y convierten.">
+  <meta property="og:image" content="assets/img/alex-sanchez.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>BrandingWeb.iA — Marketing con IA para negocios que escalan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="logo">BrandingWeb<span>.iA</span></a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#proceso">Proceso</a></li>
+    <li><a href="#testimonios">Clientes</a></li>
+  </ul>
+  <a href="https://api.whatsapp.com/send?phone=610478032163&text=%C2%A1Hola%20Alex!%20Me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20contigo" target="_blank" class="btn-nav">Agenda una llamada →</a>
+  <button class="nav-menu-btn" id="menuBtn" aria-label="Menú"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-btn" id="closeMenu">✕</button>
+  <a href="#servicios" class="mobile-link">Servicios</a>
+  <a href="#nosotros" class="mobile-link">Nosotros</a>
+  <a href="#proceso" class="mobile-link">Proceso</a>
+  <a href="#testimonios" class="mobile-link">Clientes</a>
+  <a href="https://api.whatsapp.com/send?phone=610478032163&text=%C2%A1Hola%20Alex!%20Me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20contigo" target="_blank" style="color:var(--accent2)">Agenda una llamada →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-mesh"></div>
+  <div class="grid-lines"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow"><div class="eyebrow-dot"></div>Marketing con Inteligencia Artificial</div>
+      <h1>Tu marca,<br><em>automatizada</em><br>y escalada.</h1>
+      <p class="hero-sub">Sistemas de marketing con IA que generan leads, nutren prospectos y convierten — mientras tú te enfocas en lo que importa.</p>
+      <div class="hero-actions">
+        <a href="https://api.whatsapp.com/send?phone=610478032163&text=%C2%A1Hola%20Alex!%20Me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20contigo" target="_blank" class="btn-primary">Agenda tu auditoría gratis →</a>
+        <a href="#servicios" class="btn-ghost">Ver servicios ↓</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-avatars">
+          <div class="trust-avatar" style="background:#1c1a40;color:#a78bfa">CM</div>
+          <div class="trust-avatar" style="background:#1a2040;color:#93c5fd">LG</div>
+          <div class="trust-avatar" style="background:#1a1440;color:#c4b5fd">DT</div>
+          <div class="trust-avatar" style="background:#1a3040;color:#7dd3fc">JM</div>
+        </div>
+        <div class="trust-text"><strong>+150 negocios</strong> ya automatizados en LATAM, España y Australia</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="mockup-float">
+        <div class="float-inner">
+          <div class="float-icon">⚡</div>
+          <div>
+            <div class="f-num">&lt;60s</div>
+            <div class="f-label">Respuesta a leads</div>
+          </div>
+        </div>
+      </div>
+      <div class="mockup-window">
+        <div class="mockup-topbar">
+          <div class="topbar-dots"><div class="topbar-dot r"></div><div class="topbar-dot y"></div><div class="topbar-dot g"></div></div>
+          <span class="topbar-title">Agente Valeria — BrandingWeb.iA</span>
+          <div class="topbar-badge"><div class="live-dot"></div>En vivo</div>
+        </div>
+        <div class="mockup-body">
+          <div class="chat-messages">
+            <div><div class="msg-label">Valeria IA</div><div class="msg bot">¡Hola! Soy Valeria de BrandingWeb.iA. Vi que te interesa automatizar tu negocio — ¿cuál es tu mayor desafío hoy?</div></div>
+            <div style="align-self:flex-end"><div class="msg user">Pierdo leads porque no puedo responder rápido</div></div>
+            <div class="typing"><span></span><span></span><span></span></div>
+            <div><div class="msg bot">Entiendo. Con nuestro sistema respondes en menos de 60 segundos, 24/7. ¿Agendamos una llamada de 20 minutos para mostrarte cómo funciona?</div></div>
+            <div style="align-self:flex-end"><div class="msg user">Sí, me interesa 👍</div></div>
+          </div>
+          <div class="mockup-stats">
+            <div class="mstat"><div class="mstat-num">128</div><div class="mstat-label">Leads este mes</div></div>
+            <div class="mstat"><div class="mstat-num">74%</div><div class="mstat-label">Open rate</div></div>
+            <div class="mstat"><div class="mstat-num">37</div><div class="mstat-label">Citas agendadas</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="nichos-bar">
+  <div class="nichos-track">
+    <span class="nicho-item">Bienes Raíces</span><span class="nicho-item">Clínicas Estéticas</span><span class="nicho-item">Marca Personal</span><span class="nicho-item">Abogados</span><span class="nicho-item">Agencias Migratorias</span><span class="nicho-item">E-commerce</span><span class="nicho-item">Coaches</span><span class="nicho-item">Restaurantes</span><span class="nicho-item">Consultores</span><span class="nicho-item">Bienes Raíces</span><span class="nicho-item">Clínicas Estéticas</span><span class="nicho-item">Marca Personal</span><span class="nicho-item">Abogados</span><span class="nicho-item">Agencias Migratorias</span><span class="nicho-item">E-commerce</span><span class="nicho-item">Coaches</span><span class="nicho-item">Restaurantes</span><span class="nicho-item">Consultores</span>
+  </div>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="section-inner">
+    <div class="section-label reveal">Lo que construimos</div>
+    <h2 class="reveal reveal-delay-1">Tres soluciones,<br>un solo <em>objetivo</em>: vender más</h2>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="svc-num">01</div>
+        <div class="svc-title">Sistema de captación y conversión</div>
+        <p class="svc-desc">Landing pages que convierten + agente de IA que responde leads en segundos, califica, hace seguimiento y agenda citas automáticamente.</p>
+        <div class="svc-tags"><span class="svc-tag">IA + WhatsApp</span><span class="svc-tag">CRM</span><span class="svc-tag">Calendarios</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="svc-num">02</div>
+        <div class="svc-title">Marca personal y contenido con IA</div>
+        <p class="svc-desc">Estrategia editorial + producción de contenido para Instagram y LinkedIn. Reels, carruseles y guiones alineados con tu posicionamiento.</p>
+        <div class="svc-tags"><span class="svc-tag">Instagram</span><span class="svc-tag">LinkedIn</span><span class="svc-tag">TikTok</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="svc-num">03</div>
+        <div class="svc-title">Performance Ads + automatización</div>
+        <p class="svc-desc">Campañas en Meta y Google conectadas a tus automatizaciones. Cada peso invertido tiene un sistema detrás que lo convierte.</p>
+        <div class="svc-tags"><span class="svc-tag">Meta Ads</span><span class="svc-tag">Google Ads</span><span class="svc-tag">n8n</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why-section">
+  <div class="section-inner">
+    <div class="section-label reveal">Por qué elegirnos</div>
+    <h2 class="reveal reveal-delay-1">Marketing humano,<br>potenciado con <em>IA efectiva</em></h2>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">🎯</div>
+        <div class="why-title">Sin plazos forzosos</div>
+        <p class="why-desc">Nos contratas por resultados, no para renovar contratos. Cancela cuando quieras — confiamos en lo que entregamos.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-1">
+        <div class="why-icon">⚡</div>
+        <div class="why-title">Implementación en 2 semanas</div>
+        <p class="why-desc">De auditoría a sistema activo en 14 días. No meses de consultoría — sistemas que funcionan rápido y se optimizan solos.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-2">
+        <div class="why-icon">🛡️</div>
+        <div class="why-title">Garantía de resultados</div>
+        <p class="why-desc">Si en 30 días no ves mejora medible en tu captación, te devolvemos el dinero. Porque sabemos que funciona.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE ALEX -->
+<section id="nosotros">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-photo-wrap reveal">
+        <div class="about-photo">
+          <img src="assets/img/alex-sanchez.jpg" alt="Alex Sánchez — CEO BrandingWeb.iA">
+        </div>
+        <div class="about-badge">
+          <div class="about-badge-title">Alex Sánchez</div>
+          <div class="about-badge-sub">CEO — BrandingWeb.iA · @alexsanchezia</div>
+        </div>
+      </div>
+      <div class="about-text reveal reveal-delay-1">
+        <div class="section-label">El fundador</div>
+        <h2>Marketing que viene<br>de quien lo <em>vivió</em></h2>
+        <p>Soy colombiano, marketer desde los 20 años y llevo 3 años construyendo desde Sydney, Australia. Durante casi una década trabajé en estrategia, administración y marketing para negocios en varios sectores — hasta que la IA cambió las reglas del juego.</p>
+        <p>Vi cómo negocios con enorme potencial perdían clientes cada día, no por falta de talento sino por falta de sistemas. Eso me llevó a fundar BrandingWeb.iA: la agencia que combina estrategia de marca, automatización con IA y performance, todo en uno.</p>
+        <p>Hoy opero desde Australia sirviendo a emprendedores y empresas en LATAM, España y el mercado hispano en USA — con un enfoque simple: <em style="color:var(--accent2);font-style:italic">marketing que se ve bien, se mide mejor y trabaja solo.</em></p>
+        <div class="about-stats">
+          <div><div class="stat-num">9+</div><div class="stat-label">años de experiencia</div></div>
+          <div><div class="stat-num">150+</div><div class="stat-label">negocios en LATAM, España y Australia</div></div>
+          <div><div class="stat-num">3</div><div class="stat-label">continentes activos</div></div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/alexsanchezia/" target="_blank" class="social-btn"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>Instagram</a>
+          <a href="https://www.linkedin.com/in/alexsanchezia/" target="_blank" class="social-btn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>
+          <a href="https://www.tiktok.com/@alexsanchezia" target="_blank" class="social-btn"><svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>TikTok</a>
+          <a href="https://www.youtube.com/channel/UCmWI_AylvlVdvT98IzF5YcA" target="_blank" class="social-btn"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>YouTube</a>
+          <a href="https://www.facebook.com/alexsanchezia" target="_blank" class="social-btn"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>Facebook</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="testimonials-section">
+  <div class="section-inner">
+    <div class="section-label reveal">Lo que dicen</div>
+    <h2 class="reveal reveal-delay-1">Resultados <em>reales</em>,<br>no promesas</h2>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">La automatización cambió todo. Los leads reciben respuesta inmediata, las citas aumentaron y el equipo trabaja con mucho más orden.</p>
+        <div class="stars">★★★★★</div>
+        <div class="testi-author">
+          <div class="testi-avatar">CM</div>
+          <div><div class="testi-name">Carlos Mendoza</div><div class="testi-role">Real Estate · Miami, FL</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Mi agenda empezó a llenarse con consistencia. El sistema mantiene el contacto con pacientes automáticamente.</p>
+        <div class="stars">★★★★★</div>
+        <div class="testi-author">
+          <div class="testi-avatar" style="color:#93c5fd;border-color:rgba(147,197,253,0.25)">LG</div>
+          <div><div class="testi-name">Laura Gómez</div><div class="testi-role">Clínica Estética · Ciudad de México</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Mi marca personal empezó a generar oportunidades todos los días. La automatización de contenido me permitió crecer de verdad.</p>
+        <div class="stars">★★★★★</div>
+        <div class="testi-author">
+          <div class="testi-avatar" style="color:#c4b5fd;border-color:rgba(196,181,253,0.25)">DT</div>
+          <div><div class="testi-name">Daniela Torres</div><div class="testi-role">Creadora de contenido · Medellín</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso">
+  <div class="section-inner">
+    <div class="section-label reveal">Cómo trabajamos</div>
+    <h2 class="reveal reveal-delay-1">De cero a sistema activo<br>en <em>4 pasos</em></h2>
+    <div class="process-grid">
+      <div class="process-step reveal"><div class="step-num">01</div><div class="step-title">Auditoría gratuita</div><p class="step-desc">30 min para detectar dónde pierdes leads y definir prioridades con datos reales.</p></div>
+      <div class="process-step reveal reveal-delay-1"><div class="step-num">02</div><div class="step-title">Estrategia y diseño</div><p class="step-desc">Diseñamos el sistema completo — qué automatizar, qué canales, qué métricas.</p></div>
+      <div class="process-step reveal reveal-delay-2"><div class="step-num">03</div><div class="step-title">Implementación</div><p class="step-desc">Construimos e integramos todo en 2 semanas. Con soporte directo en cada paso.</p></div>
+      <div class="process-step reveal reveal-delay-3"><div class="step-num">04</div><div class="step-title">Optimización continua</div><p class="step-desc">Analizamos datos cada semana y ajustamos para que el sistema mejore solo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contacto" class="cta-section">
+  <div class="cta-block">
+    <div class="cta-glow"></div>
+    <div class="cta-inner">
+      <div class="cta-label"><div class="cta-label-dot"></div>El siguiente paso</div>
+      <h2>¿Listo para que tu<br>negocio trabaje <em>solo</em>?</h2>
+      <p>Una auditoría de 30 minutos. Sin compromiso. Saldrás con un diagnóstico claro de cómo escalar con IA.</p>
+      <a href="https://api.whatsapp.com/send?phone=610478032163&text=%C2%A1Hola%20Alex!%20Me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20contigo" target="_blank" class="btn-cta">Agenda tu auditoría gratuita →</a>
+      <div class="cta-pills">
+        <span class="cta-pill">Sin contratos largos</span>
+        <span class="cta-pill">Implementación en 2 semanas</span>
+        <span class="cta-pill">Garantía de resultados</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="#" class="logo">BrandingWeb<span>.iA</span></a>
+      <p>Sistemas de marketing con IA para negocios en LATAM, España y Australia. Fundado por Alex Sánchez desde Sydney.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/alexsanchezia/" target="_blank" title="Instagram"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+        <a href="https://www.linkedin.com/in/alexsanchezia/" target="_blank" title="LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://www.tiktok.com/@alexsanchezia" target="_blank" title="TikTok"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+        <a href="https://www.youtube.com/channel/UCmWI_AylvlVdvT98IzF5YcA" target="_blank" title="YouTube"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+        <a href="https://www.facebook.com/alexsanchezia" target="_blank" title="Facebook"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#testimonios">Clientes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Redes Sociales</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/alexsanchezia/" target="_blank">@alexsanchezia</a></li>
+        <li><a href="https://www.linkedin.com/in/alexsanchezia/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.tiktok.com/@alexsanchezia" target="_blank">TikTok</a></li>
+        <li><a href="https://www.youtube.com/channel/UCmWI_AylvlVdvT98IzF5YcA" target="_blank">YouTube</a></li>
+        <li><a href="https://www.facebook.com/alexsanchezia" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="mailto:alex@brandingweb.ai">alex@brandingweb.ai</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=610478032163&text=%C2%A1Hola%20Alex!%20Me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20contigo" target="_blank">Agendar llamada</a></li>
+        <li><a href="#">Sydney, Australia</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 BrandingWeb.iA · Todos los derechos reservados</span>
+    <span class="footer-copy">Sydney, Australia · Para LATAM y España · @alexsanchezia</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
