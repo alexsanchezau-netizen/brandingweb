@@ -26,6 +26,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 /* CURSOR */
 .cursor{position:fixed;width:8px;height:8px;background:var(--accent2);border-radius:50%;pointer-events:none;z-index:9999;transition:transform 0.15s;transform:translate(-50%,-50%)}
 .cursor-ring{position:fixed;width:32px;height:32px;border:1px solid rgba(167,139,250,0.4);border-radius:50%;pointer-events:none;z-index:9998;transition:width 0.2s,height 0.2s,opacity 0.2s;transform:translate(-50%,-50%)}
+@media(hover:none),(pointer:coarse){.cursor,.cursor-ring{display:none}}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.3rem 4rem;display:flex;align-items:center;justify-content:space-between;transition:background 0.3s,border-color 0.3s;border-bottom:1px solid transparent}
@@ -242,8 +243,8 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:4rem}
   .svc-num{margin-bottom:1rem}
   .why-grid{grid-template-columns:1fr}
   .about-grid{grid-template-columns:1fr;gap:4rem}
-  .about-photo{aspect-ratio:4/3;max-height:380px}
-  .about-badge{bottom:-12px;right:-8px;padding:0.8rem 1rem}
+  .about-photo{aspect-ratio:3/4;max-height:520px}
+  .about-badge{bottom:16px;right:16px;padding:0.8rem 1rem}
   .about-stats{grid-template-columns:repeat(3,1fr);gap:1rem}
   .stat-num{font-size:1.6rem}
   .testi-grid{grid-template-columns:1fr}
